@@ -81,7 +81,7 @@ class LidarGraphMaker(Node):
             "pedestrian": False,
             "tunnel": False
         }
-        self.passed_work = True
+        self.passed_work = False
         self.passed_parking = False
         self.passed_pedestrian = False
         self.passed_tunnel = False
